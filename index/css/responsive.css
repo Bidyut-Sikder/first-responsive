@@ -1,0 +1,159 @@
+@media  (min-width: 200px) and (max-width: 991px) {
+    .search-area {
+        width: 45%;
+
+        padding: 15px 0;
+    }
+
+    element {
+        padding-left: 33px;
+    }
+
+    #hero-area .right-hero {
+        width: 324px;
+        float: left;
+
+        padding: 0;
+        height: 525px;
+        margin: 0;
+
+        max-width: 56%;
+    }
+
+    .main-menu ul {
+        padding-left: 2px;
+    }
+    .main-menu ul li a {
+        padding: 15px 1px;
+       
+    }
+    #service-area .inner-service h2 {
+        padding-top: 30px;
+    }
+
+    #service-area .child-service {
+        width: 200px;
+    }
+
+    .inner-contact {
+        width: 750px;
+        /* margin-left: 0; */
+    }
+}
+
+
+
+/* For mobile layouts */
+
+
+@media  (min-width:200px) and (max-width:620px) {
+    
+    .social-area {
+        padding-left: 5%;
+        float: none;
+        width: 95%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .search-area {
+        width: 100%;
+        padding: 0px 0;
+       float: none;
+        text-align: center;
+    }
+    #top-header-area form {
+        width: 80%;
+    }
+    .mean-container .mean-bar {
+       
+        background: #2fb35c;
+        padding: 2px 0;
+       
+    }
+    .mean-container .mean-nav {
+  
+        width: 80%;
+        background: #2d6693;
+        margin-top: 4px;
+    }
+
+
+    #hero-area .left-hero {
+        padding: 0 1%;
+        width: 98%;
+        float: none;
+    }
+
+
+    #hero-area .right-hero {
+        width: 98%;
+        float: none;
+       
+        height:auto; 
+        /* margin: 0; */
+        padding: 0 1%;
+        
+        
+    }
+
+   
+
+    .main-form-area input {
+        width: 60%;
+        float: left;
+        padding: 7px 3%;
+        
+    }
+
+    .main-form-area input[type="submit"] {
+        padding: 5px 0;
+        width: 180px;
+        margin-bottom: 20px;
+        float: left;
+
+    }
+
+    .main-form-area textarea {
+        width: 60%;
+        min-height: 100px;
+        border: none;
+        resize: none;
+        margin: 1% 1%;
+        border-radius: 5px;
+        padding: 15px 3%;
+        color: #565757;
+        font-size: 18px;
+        float: left;
+    }
+
+
+    #footer-area .footer-logo img{
+        width: 330px;
+        text-align: center;
+    }
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
